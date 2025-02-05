@@ -103,7 +103,7 @@ function Dashboard() {
                 <td>{e.title}</td>
                 <td>{e.description}</td>
                 <td>{e.progress}</td>
-                <td>{e.assignedTo.name}</td>
+                <td>{e.assignedTo?.name}</td>
                 <td>{e.date}</td>
                 <td>{e.deadline}</td>
                 <td><Button variant='primary' onClick={()=>navigate(`/tasks/${e.no}`)}>View</Button></td>
