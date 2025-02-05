@@ -8,6 +8,7 @@ import Users from "../components/Users";
 import Task from "../components/Task";
 import Profile from "../components/Profile";
 import CreateUser from "../components/CreateUser";
+import User from "../components/User"
 
 const AppRoutes = [
     {
