@@ -1,0 +1,28 @@
+.loginWrapper{
+  margin: auto;
+  margin-top: 10px;
+  width: 50%;
+
+}
+
+.details-wrapper{
+  margin: 20px;
+}
+
+.loginWrapper h3{
+  text-align: center;
+}
+
+.cardWrapper{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+  .loginWrapper{
+      width: 100%;
+      padding: 10px;
+  }
+}
