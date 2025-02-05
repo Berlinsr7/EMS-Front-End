@@ -6,7 +6,6 @@ import Status from "../components/Status";
 import Dashboard from "../components/Dashboard";
 import Users from "../components/Users";
 import Task from "../components/Task";
-import User from "../components/user";
 import Profile from "../components/Profile";
 import CreateUser from "../components/CreateUser";
 

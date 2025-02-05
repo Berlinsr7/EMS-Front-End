@@ -1,7 +1,7 @@
 import axios from "axios";
 
 let AxiosService = axios.create({
-    baseURL:"http://localhost:8000",
+    baseURL:"https://ems-backend-o6r0.onrender.com",
     headers:{
         "Content-Type":"application/json"
     }
